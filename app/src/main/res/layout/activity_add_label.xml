@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8ECF6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddLabel">
+
+    <EditText
+        android:id="@+id/editTextAnomaly"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/addLabelButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#47834A"
+        android:text="Add Label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addActivityLabelBack"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="add"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>
